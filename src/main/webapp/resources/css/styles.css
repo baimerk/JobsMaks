@@ -1,0 +1,158 @@
+body {
+    background-color: cornflowerblue;
+    background: cornsilk url("https://lh3.googleusercontent.com/v6i2YmWQ_TwDolOJaTjoJdLdW3LJo0bkRDXzOssdc4F11frU8HZAAsBsybaIKEi_xZYPEQakW-6RBYNPfCqW8ctpMNW6Ziw4AqPL0oxccc59fp_dymYdI1kVkaLZZElZndcMv3fW4zuWuVxBoMi6cM1dI0KUwPT0o9EwGIa5vPf7fA40cwCg4MoJwfx8Gk9d5axhVFYycI2CmdrzFd-eamOHsj6Arfv7p-4Ev-d88YRfNFxQ-piEI-SZ2ctHQlYM5i5X43v6mLhSVWFRlL0e4MWxdZu4w7OVgxPwjX97d5iiOX28CU5f6to7sxZKcXFq3HYG-ofFdWq-VkUXBn1iLyE0sczm3g9mxlxjTT9GAiSegNq6bWa2uFTqnSmeKrPS0ZZnzR1muYtMUaAf7_YJzhmikUpIil1XneOqjmL5oVV_McWazqxrXYIZ_BcnbK8Tc8DMimCyAX3B2lyJTdRV7RrNgGMHMe-1fqq2JMfYIboVufT_-nZtIbZ9LcTErXIDN2DN6qq2A1ctfuYQ2F4JTAMF_nRKeb5e8S-ADKMGjnvkgKEwIp5M55gjFmIi40PJJyNrN_L2w8EIyheHejU5j50SRxIFVVFHdvcDXsdFCFSaQTAIAMJdeVTICF_ryXgwYXaXTqnE9rM1WKCEB7Opbhfo08hzGBhY3Mw1tZVP0XnyyPPRU00MMgRlKC_zMrsPmhIMfA8EsvJ7HBYeIzYibFMY2w=w502-h226-no?authuser=0") no-repeat 50% 20%;
+}
+
+p {
+    font-size: 1.5em;
+    color: brown;
+}
+
+h2 {
+    color: aqua
+}
+
+.second-tag {
+    color: chartreuse;
+    font-size: 15px
+}
+
+li:hover {
+    color: black;
+    cursor: pointer
+}
+
+.a-class {
+    text-decoration: underline;
+}
+
+.b-class {
+    text-decoration: line-through;
+}
+
+.c-class {
+    text-decoration: overline;
+}
+
+#template {
+    width: 200px;
+    height: 200px;
+    border: 2px solid crimson;
+    border-radius: 100px;
+    background-color: chartreuse;
+
+}
+
+#run {
+    width: 500px;
+    height: 200px;
+    border: 3px dotted olivedrab;
+    margin-bottom: 50px;
+}
+
+#block {
+    width: 300px;
+    border-bottom: 3px solid red;
+    border-top: 3px solid blue;
+    border-right: 3px solid green;
+    border-left: 3px solid black;
+    border-radius: 20px 30px 40px 50px;
+    margin-top: 60px;
+    margin-left: 100px;
+    padding: 20px;
+    text-align: justify;
+
+}
+
+#air ul {
+    width: 150px;
+    /*border:3px solid green;*/
+    list-style-type: none; /*убрать точки*/
+}
+
+#air li {
+    margin-bottom: 5px;
+
+}
+
+#air a {
+    line-height: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    padding: 0px 5px;
+    border: 1px solid darkred;
+    background-color: blue;
+    display: block;
+}
+
+#air a:hover {
+    color: blue;
+    background: white url("http://old.code.mu/exercises/css/praktika-po-sozdaniyu-gorizontalnyh-i-vertikalnyh-menyushek/1/images/blue.png") no-repeat 92% center;
+}
+
+#StyleOne {
+    width: 700px;
+    margin: 10px auto;
+}
+
+#StyleOne ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#StyleOne li {
+    /*display: inline-block;*/
+    /*margin-right: 10px;*/
+}
+#StyleOne a{
+    text-decoration: none;
+    color: grey;
+    display: block;
+    padding-top: 35px;
+}
+.l1 {
+    background: url("http://old.code.mu/exercises/css/praktika-po-sozdaniyu-gorizontalnyh-i-vertikalnyh-menyushek/1/img/1.png") no-repeat top center;
+}
+.l2 {
+    background: url("http://old.code.mu/exercises/css/praktika-po-sozdaniyu-gorizontalnyh-i-vertikalnyh-menyushek/1/img/2.png") no-repeat top center;
+}
+.l3 {
+    background: url("http://old.code.mu/exercises/css/praktika-po-sozdaniyu-gorizontalnyh-i-vertikalnyh-menyushek/1/img/3.png") no-repeat top center;
+}
+.l4 {
+    background: url("http://old.code.mu/exercises/css/praktika-po-sozdaniyu-gorizontalnyh-i-vertikalnyh-menyushek/1/img/4.png") no-repeat top center;
+}
+.l5 {
+    background: url("http://old.code.mu/exercises/css/praktika-po-sozdaniyu-gorizontalnyh-i-vertikalnyh-menyushek/1/img/5.png") no-repeat top center;
+}
+.l1:hover{
+    background: url("http://old.code.mu/exercises/css/praktika-po-sozdaniyu-gorizontalnyh-i-vertikalnyh-menyushek/1/img/1-h.png") no-repeat top center;
+}
+.l2:hover{
+    background: url("http://old.code.mu/exercises/css/praktika-po-sozdaniyu-gorizontalnyh-i-vertikalnyh-menyushek/1/img/2-h.png") no-repeat top center;
+}
+.l3:hover {
+    background: url("http://old.code.mu/exercises/css/praktika-po-sozdaniyu-gorizontalnyh-i-vertikalnyh-menyushek/1/img/3-h.png") no-repeat top center;
+}
+.l4:hover {
+    background: url("http://old.code.mu/exercises/css/praktika-po-sozdaniyu-gorizontalnyh-i-vertikalnyh-menyushek/1/img/4-h.png") no-repeat top center;
+}
+.l5:hover {
+    background: url("http://old.code.mu/exercises/css/praktika-po-sozdaniyu-gorizontalnyh-i-vertikalnyh-menyushek/1/img/5-h.png") no-repeat top center;
+}
+
+#StyleOne a:hover{
+    color: blue;
+}
+
+#StyleOne {
+    width: 700px;
+    margin: 10px auto;
+    background-color: cornflowerblue;
+    background: cornsilk url("https://lh3.googleusercontent.com/v6i2YmWQ_TwDolOJaTjoJdLdW3LJo0bkRDXzOssdc4F11frU8HZAAsBsybaIKEi_xZYPEQakW-6RBYNPfCqW8ctpMNW6Ziw4AqPL0oxccc59fp_dymYdI1kVkaLZZElZndcMv3fW4zuWuVxBoMi6cM1dI0KUwPT0o9EwGIa5vPf7fA40cwCg4MoJwfx8Gk9d5axhVFYycI2CmdrzFd-eamOHsj6Arfv7p-4Ev-d88YRfNFxQ-piEI-SZ2ctHQlYM5i5X43v6mLhSVWFRlL0e4MWxdZu4w7OVgxPwjX97d5iiOX28CU5f6to7sxZKcXFq3HYG-ofFdWq-VkUXBn1iLyE0sczm3g9mxlxjTT9GAiSegNq6bWa2uFTqnSmeKrPS0ZZnzR1muYtMUaAf7_YJzhmikUpIil1XneOqjmL5oVV_McWazqxrXYIZ_BcnbK8Tc8DMimCyAX3B2lyJTdRV7RrNgGMHMe-1fqq2JMfYIboVufT_-nZtIbZ9LcTErXIDN2DN6qq2A1ctfuYQ2F4JTAMF_nRKeb5e8S-ADKMGjnvkgKEwIp5M55gjFmIi40PJJyNrN_L2w8EIyheHejU5j50SRxIFVVFHdvcDXsdFCFSaQTAIAMJdeVTICF_ryXgwYXaXTqnE9rM1WKCEB7Opbhfo08hzGBhY3Mw1tZVP0XnyyPPRU00MMgRlKC_zMrsPmhIMfA8EsvJ7HBYeIzYibFMY2w=w502-h226-no?authuser=0") no-repeat 50% 20%;
+}
+
